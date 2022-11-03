@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    background-image:url(../img/old_trafford.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+   
+}
+
+.nav{
+    background-color: red;
+    min-height: 50px;
+    justify-content: center;
+}
+
+.display-flex{
+    display:flex;
+    align-items: center;
+}
+.seperator{
+    color: antiquewhite;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* .menu{
+    margin-right: 20px;
+} */
+
+.menu>a{
+    text-decoration: none;
+    font-size: 25px;
+    color: antiquewhite;
+    font-weight: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 689px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.welcome{
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.logoimg{
+    height: 400px;
+    width:  400px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
