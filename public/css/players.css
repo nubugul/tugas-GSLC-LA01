@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    background-image:url(../img/old_trafford.jpg);
+    background-repeat: space;
+    background-size: cover;
+    margin: 0px;
+   
+}
+
+.nav{
+    background-color: red;
+    min-height: 50px;
+    justify-content: center;
+}
+
+.display-flex{
+    display:flex;
+    align-items: center;
+}
+.seperator{
+    color: antiquewhite;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* .menu{
+    margin-right: 20px;
+} */
+
+.menu>a{
+    text-decoration: none;
+    font-size: 25px;
+    color: antiquewhite;
+    font-weight: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    background-color:rgba(0, 0, 0, 0.634);
+    display: flex;
+    flex-direction: column;
+    justify-items:center;   
+}
+
+h1{
+    margin-top: 0px;
+    color: white;
+}
+.page{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content:center;
+}
+
+.white{
+    color: black;
+}
+
+.profile{
+    height: 180px;
+    width: 180px;
+}
+.card{
+    background-color: rgb(213, 208, 208);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 550px;
+    width: 440px;
+    transition-duration: 0.5s;
+   
+}
+.card-container{
+   display: flex;
+}
+.card-image{
+    margin:20px;
+}
+.card:hover{ 
+    background-color: black;
+    color: white;
+}
+
+.desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
